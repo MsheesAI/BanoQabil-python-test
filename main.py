@@ -5,4 +5,13 @@ print("Negative numbers in the list:", negative_numbers)
 
 
 #Question 2 : Multiplication table using while loop
-start = input("Enter starting point for the multiplication")
+start = int(input("Enter starting point for the multiplication: "))
+end = int(input("Enter Ending point for the multiplication: "))
+
+for i in range(start, end + 1):
+    print(f"{start}X{i} = {i*start}")
+
+
+
+    
+
