@@ -30,6 +30,7 @@ elif temperature_input == 40 and temperature_input>50:
 elif temperature_input < 50:
     print(f"hahahhaha game over{user_input}")
 
+#Question:4 Find the first Occurrence of a Number in a list
 
 
 
