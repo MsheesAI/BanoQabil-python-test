@@ -30,15 +30,9 @@ elif temperature_input == 40 and temperature_input>50:
 elif temperature_input < 50:
     print(f"hahahhaha game over{user_input}")
 
-#Question:4 Find the first Occurrence of a Number in a list 
 
-list_num = [10,23,34,45,34,67,34,67,34,89]
-for i in list_num:
-    if len(list_num)==5:
-        print(list_num)
-        break
 
-#Question 5:Print Numbers in a Given Range (Using For Loop and Range)
+#Question 4:Print Numbers in a Given Range (Using For Loop and Range)
 user_start = int(input("Enter a starting Number: "))
 user_end = int(input("Enter a ending number: "))
 for i in range(user_start,user_end):
